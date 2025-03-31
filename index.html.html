@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchiZ - Find Your Perfect Match</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .banner {
+            width: 100%;
+            background: black;
+            padding: 20px 0;
+        }
+        .banner img {
+            width: 300px;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="MatchiZ Logo.png" alt="MatchiZ Logo">
+    </div>
+    
+    <div class="container">
+        <h2>Find Your Perfect Match</h2>
+        <form>
+            <label>Gender</label>
+            <select>
+                <option>Female</option>
+                <option>Male</option>
+            </select>
+
+            <label>Age</label>
+            <select>
+                <option>18-25</option>
+                <option>26-35</option>
+                <option>36-45</option>
+                <option>46-55</option>
+                <option>56-65</option>
+                <option>66+</option>
+            </select>
+
+            <label>Status</label>
+            <select>
+                <option>Single</option>
+                <option>Widowed</option>
+                <option>Divorced</option>
+            </select>
+
+            <label>Are you interested in marriage?</label>
+            <select>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <label>Do you have any children?</label>
+            <select>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <label>Does it matter if your match has kids?</label>
+            <select>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <label>Do you have an age preference for your match?</label>
+            <select>
+                <option>No</option>
+                <option>18-25</option>
+                <option>26-35</option>
+                <option>36-45</option>
+                <option>46-55</option>
+                <option>56-65</option>
+                <option>66+</option>
+            </select>
+
+            <label>What are your religious views?</label>
+            <select>
+                <option>Undecided</option>
+                <option>Traditional beliefs</option>
+                <option>Christianity</option>
+                <option>Islam</option>
+                <option>Hinduism</option>
+                <option>Other</option>
+            </select>
+
+            <label>What parish do you live in?</label>
+            <input type="text" placeholder="Enter your parish">
+
+            <label>First and Last Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number">
+
+            <label>Upload a valid picture ID</label>
+            <input type="file" accept="image/*,application/pdf">
+
+            <label>Upload a 15-second introduction video</label>
+            <input type="file" accept="video/*">
+
+            <label>Upload your preferred profile photo</label>
+            <input type="file" accept="image/*">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
